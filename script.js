@@ -3,17 +3,17 @@ const data = [
   // pojedynczy slajd (object)
   {
     // tytul
-    title : "Pink lake",
+    title : "NICOLE WRÓBEL Pink lake - WIDOK PIERWSZY",
     // źródło zdjęcia
     src: "1.webp",
   },
   // ANALOGICZNIE: 
   {
-    title : "Single Island",
+    title : "NICOLE WRÓBEL Single Island - WIDOK DRUGI ",
     src: "2.webp",
   },
   {
-    title : "Forest lake",
+    title : "NICOLE WRÓBEL Forest lake - WIDOK TRZECI ",
     src: "3.webp",
   },
 ]
