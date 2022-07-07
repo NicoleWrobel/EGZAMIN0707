@@ -5,16 +5,14 @@ const data = [
     // tytul
     title : "NICOLE WRÓBEL 1 ",
     // źródło zdjęcia
-    src: "1.webp",
   },
   // ANALOGICZNIE: 
   {
     title : "NICOLE WRÓBEL 2 ",
-    src: "2.webp",
+
   },
   {
     title : "NICOLE WRÓBEL 3 ",
-    src: "3.webp",
   },
 ]
 
@@ -27,10 +25,6 @@ function changeHTMLInfo( slideNr ){
   // do pobranego tagu wpisujemy pobraną treść 
   titleDOM.innerHTML = title
 
-  // ANALOGICZNIE: 
-  const image = data[slideNr].src
-  const imageDOM = document.querySelector("img")
-  imageDOM.src = "img/"+image
 }
 
 // ustaw zmienną sterującą globalnie slajdami
